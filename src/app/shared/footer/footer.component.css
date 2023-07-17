@@ -1,0 +1,43 @@
+p {
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.darkvader {
+  background-image: url(../../../assets/darkvader_dark.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rrss svg {
+  margin-right: 1.5em;
+}
+.rrss svg:hover {
+  cursor: pointer;
+  color: white !important;
+}
+
+a {
+  color: rgb(164, 164, 164);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 0.8em;
+  font-weight: 400;
+  border-right: 1px solid rgb(111, 111, 111);
+  padding-right: 0.8em;
+  margin-left: -1em;
+}
+.no-line {
+  border: none !important;
+}
+
+ul li a:hover {
+  color: #fff;
+}
